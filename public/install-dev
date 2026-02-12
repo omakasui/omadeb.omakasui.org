@@ -1,2 +1,2 @@
 OMADEB_REF=dev
-eval "$(wget -qO- https://raw.githubusercontent.com/omakasui/omadeb/dev/boot.sh)"
+eval "$(curl -fsSL https://raw.githubusercontent.com/omakasui/omadeb/dev/boot.sh)"
