@@ -1,0 +1,69 @@
+---
+import Footer from "@/components/Footer.astro";
+import Header from "@/components/Header.astro";
+
+import "@/styles/global.css";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="Omadeb - A modern, elegant, development-focused setup for Debian."
+    />
+    <title>Omadeb</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.svg" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:url" content="https://omadeb.omakasui.org" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Omadeb - A modern, elegant, development-focused setup for Debian."
+    />
+    <meta
+      property="og:description"
+      content="Omadeb - A modern, elegant, development-focused setup for Debian."
+    />
+    <meta
+      property="og:image"
+      content="https://omadeb.omakasui.org/og-image.png"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="omadeb.omakasui.org" />
+    <meta property="twitter:url" content="https://omadeb.omakasui.org" />
+    <meta
+      name="twitter:title"
+      content="Omadeb - A modern, elegant, development-focused setup for Debian."
+    />
+    <meta
+      name="twitter:description"
+      content="Omadeb - A modern, elegant, development-focused setup for Debian."
+    />
+    <meta
+      name="twitter:image"
+      content="https://omadeb.omakasui.org/og-image.png"
+    />
+
+    <meta name="generator" content={Astro.generator} />
+  </head>
+  <body
+    class="font-monospace flex min-h-screen flex-col font-mono text-[14px] leading-[1.6]"
+  >
+    <Header />
+    <main
+      role="main"
+      aria-label="Main content"
+      class="mx-0 my-16 flex-1 px-8 py-0 lg:px-16"
+    >
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

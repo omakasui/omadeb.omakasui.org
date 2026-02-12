@@ -1,0 +1,20 @@
+---
+import { Image } from "astro:assets";
+import Logo from "../assets/logo.png";
+---
+
+<header
+  class="mb-6 px-0 py-4 text-center lg:mb-3"
+  aria-labelledby="header-heading"
+>
+  <h2 class="sr-only" id="header-heading">omadeb - introduction</h2>
+  <Image
+    src={Logo}
+    alt="omadeb logo"
+    class="text-primary mx-auto cursor-pointer opacity-90 transition-opacity duration-300 hover:opacity-100"
+    onclick={`window.location.href='/'`}
+  />
+  <p class="text-foreground-secondary mt-2 text-lg sm:text-xl lg:text-2xl">
+    A Modern, Elegant, Development-Focused Setup for <i>Debian</i>
+  </p>
+</header>
