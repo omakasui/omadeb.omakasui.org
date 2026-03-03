@@ -34,13 +34,5 @@ export default defineConfig({
     },
   },
 
-  markdown: {
-    rehypePlugins: [],
-    shikiConfig: {
-      theme: "github-dark",
-      wrap: true,
-    },
-  },
-
   integrations: [react(), jaamd()],
 });
