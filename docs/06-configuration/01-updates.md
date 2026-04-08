@@ -4,10 +4,16 @@
 
 It is recommended that you use the custom script in _Update > Omadeb_ (`Super + Alt + Space`) to update your system and Omadeb.
 
-This pulls the latest Omadeb code and configs, runs any pending migrations to get your system in sync with the latest, updates all system packages from Ubuntu, the GNOME extensions and all apps installed via Flatpak.
+This pulls the latest Omadeb code and configs, runs any pending migrations to get your system in sync with the latest, updates all system packages from Debian, the GNOME extensions and all apps installed via Flatpak.
 
 ## Development Channel
 
 When installed, Omadeb comes in its _stable_ version, which coincides with the `main` branch of the repository. The release cycle for new stable versions is based on important fixes for functionality and a sustained testing phase for the features that are introduced. While it is important to provide new features as quickly as possible, it is also important to maintain the system's stability and therefore release them only when we are absolutely certain that nothing is broken.
 
 There's also a dedicated `dev` channel for introducing and testing new features. While this channel is intended for developers, it could also be the ideal environment to experiment with new developments and help develop Omadeb by making suggestions and reporting based on what's introduced here.
+
+When you switch between channels via _Update > Channel_ in the Omadeb menu, the APT repository source is automatically updated to point to the correct package suite for that channel, ensuring you always receive the right packages.
+
+## Restore Default Configs
+
+If you've customized a configuration and want to go back to the Omadeb defaults, you can restore individual configs via _Update > Config_ in the Omadeb menu. Available options include GNOME settings, GDM, keybindings, Plymouth, Starship, Tmux and Walker.
