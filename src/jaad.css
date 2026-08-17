@@ -25,6 +25,7 @@ html.dark {
   --color-success: #9ece6a;
 
   --jaamd-color-primary: #9ece6a;
+  --jaamd-font-size: 0.75rem;
 }
 
 :root {
