@@ -2,7 +2,6 @@
   "name": "omadeb.omakasui.org",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@10.34.5",
   "scripts": {
     "prepare": "husky",
     "dev": "astro dev",
@@ -15,9 +14,9 @@
     "lint:fix": "eslint --fix ."
   },
   "dependencies": {
-    "@lancher-dev/jaad": "^0.4.0",
-    "astro": "^7.2.9",
-    "sharp": "^0.35.3"
+    "@lancher-dev/jaad": "^0.8.3",
+    "astro": "^7.3.1",
+    "sharp": "^0.35.4"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^8.59.1",
