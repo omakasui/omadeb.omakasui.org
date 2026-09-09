@@ -2,7 +2,7 @@
 
 Omadeb comes with a curated set of themes. You can select between them via _Style > Theme_ in the Omadeb menu (`Super + Alt + Space`), or jump directly to the theme selector using `Super + Ctrl + Shift + Space`. The theme picker shows a preview image for each theme.
 
-Each theme styles the desktop, terminal, Neovim, system monitor (btop & tophat), Zellij, Tmux and VSCode.
+Each theme styles the desktop, terminal, Neovim, system monitor (btop & tophat), Tmux, VSCode, the GNOME shell extensions, and the `gum` prompts used by the Omadeb Menu.
 
 Most themes also include a set of background images that you can cycle through using `Super + Ctrl + Space`.
 
