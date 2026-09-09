@@ -4,11 +4,13 @@ GNOME comes with a simple two-way tiling setup: `Super + Left Arrow` fills the l
 
 For more advanced tiling, Omadeb ships with [Tactile](https://extensions.gnome.org/extension/4548/tactile/), a GNOME Shell extension that overlays a configurable grid on the screen. You activate it, press keys to snap the focused window into one or more grid zones, and dismiss the overlay.
 
-## Using Tactile
+## Omadeb's Grid: 4 Columns, 2 Rows
 
-Omadeb configures Tactile with a **4-column, 2-row uniform grid**.
+Omadeb configures Tactile with a 3-column, 2-row grid (6 zones). Omadeb extends this to a **4-column, 2-row uniform grid** — 8 equal zones — giving more flexibility on larger displays and making it easy to tile 3 or 4 applications side by side without overlap.
 
 The gap between tiles is set to 10px.
+
+## Using Tactile
 
 Press `Super + T` to activate the tiling overlay. The grid appears on screen with each zone labeled. While the overlay is active:
 

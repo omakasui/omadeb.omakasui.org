@@ -16,11 +16,11 @@ Omadeb ships with a minimal but complete set of tools, chosen for quality and co
 
 ## A Consistent Environment
 
-Themes apply everywhere at once: terminal, editor, UI elements, even the login screen. Hotkeys are designed to work across apps. The launcher, the menu, and the configuration scripts all share the same mental model. This consistency is not accidental — it's the direct result of having a single setup that owns the full environment.
+Themes apply everywhere at once: terminal, editor, UI elements, even the boot and login screens. Hotkeys are designed to work across apps. The launcher, the menu, and the configuration scripts all share the same mental model. This consistency is not accidental; it's the direct result of having a single setup that owns the full environment.
 
 ## Stable and Predictable
 
-Built on Debian stable, Omadeb targets a solid, well-tested base that doesn't shift under your feet. Security updates land promptly; the package ecosystem is mature; the behavior is reproducible. The kind of foundation that matters when your machine is a professional tool, not an experiment.
+Built on Debian stable, Omadeb targets long-term support releases so the base never shifts under your feet. Security updates land promptly; the package ecosystem is stable; the behavior is reproducible. The kind of foundation that matters when your machine is a professional tool, not an experiment.
 
 ## Easy to Maintain and Extend
 

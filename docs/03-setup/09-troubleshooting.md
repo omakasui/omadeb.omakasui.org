@@ -1,6 +1,22 @@
 # Troubleshooting
 
-If you encounter any errors, this section is a good place to start troubleshooting.
+If you encounter any errors, this section is a good place to start troubleshooting. For questions that aren't about something being broken, see the [FAQ](/manual/setup/faq).
+
+## I broke my system with an update
+
+`omadeb reinstall` restores the default packages and configs. Your own files are untouched, but customized Omadeb configs are overwritten. To reset a single config instead, use _Update > Config_ in the Omadeb Menu.
+
+Migration backups are kept in `~/.local/share/omadeb-backup-{timestamp}/`.
+
+## Diagnostics
+
+`omadeb debug` collects system state into `/tmp/omadeb-debug.log`: version and branch, hardware, session type, GNOME extensions, installed packages, and recent kernel messages. Attach it when reporting an issue.
+
+```bash
+omadeb debug              # write the log
+omadeb debug --print      # write it and print it
+omadeb debug --no-sudo    # skip the dmesg section, no sudo needed
+```
 
 ## Installation
 
@@ -30,9 +46,9 @@ The system will boot normally using the default configuration required for encry
 
 ## Known Issue
 
-### `X11` and `wofi`
+### `X11` and `Walker`
 
-`wofi` works correctly on both _Wayland_ and _X11_ sessions.
+`Walker` works correctly on both _Wayland_ and _X11_ sessions.
 
 However, when running under _X11_, some visual styles may not be applied exactly as intended due to minor incompatibilities. This can result in a slightly less polished appearance compared to the Wayland experience, but functionality is not affected.
 
