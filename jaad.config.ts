@@ -13,6 +13,8 @@ export default defineJaadConfig({
   theme: "tokyo-night",
   appearance: "dark",
 
+  tailwind: true,
+
   nav: [
     { label: "Manual", href: "/manual" },
     { label: "More", href: "https://omakasui.org" },
