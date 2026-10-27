@@ -1,4 +1,2 @@
 allowBuilds:
   esbuild: true
-minimumReleaseAgeExclude:
-  - "@lancher-dev/jaad@0.10.0"
